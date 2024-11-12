@@ -11,18 +11,18 @@ Finally, Implemented Explainable AI LIME (Local Interpretable Model-Agnostic Exp
 
 The dataset is stored in a CSV format and I only utilized 2 columns:
 
-    comment_text: The wikipedia comment text. (comment_text)
-    toxic: If the comment is toxic or not.  (Target Column)
-    Other columns are ignored, and hence are dropped.
+- comment_text: The wikipedia comment text. (comment_text)
+- toxic: If the comment is toxic or not.  (Target Column)
+- Other columns are ignored, and hence are dropped.
 
 
 ## Preprocessing
 
 Texts are cleaned to eliminate irrelevant information and reduce noise and nuances and. Such as,
 
-    Text is lowercase.
-    Contractions are expanded.
-    URLs, mentions, and special characters are removed.
+- Text is lowercase.
+- Contractions are expanded.
+- URLs, mentions, and special characters are removed.
 
 I also removed the stopwords since I am not using deep learning models or neural networks. I also utilized an unsupervised weighting scheme named TF-IDF (Term Frequency-Inverse Document Frequency) to create word embeddings consisting sparse matrix. This enables a model to identify how relevant a word is in a document by fitting and transforming the text data into vector representations.
 
