@@ -35,9 +35,9 @@ The performances are shown in the table below.
 
 | Serial        | ML Algorithm            | Accuracy       | Precision         | Recall           | F-1 Score |
 | ------------- |:-----------------------:|:--------------:|:-----------------:|:----------------:|:---------:|	
-| 1             |Logistic Regression	    |0.96            |0.96               |0.96              |0.96       |
+| 1             |Logistic Regression	  |0.96            |0.96               |0.96              |0.96       |
 | 2             |Linear SVM	              |0.96            |0.96               |0.96              |0.96       |
-| 3             |Bernoulli's Naive Bayes	|0.95            |0.94               |0.95              |0.94       |
+| 3             |Bernoulli's Naive Bayes  |0.95            |0.94               |0.95              |0.94       |
 
     
 Finally, Explainable AI LIME (Local Interpretable Model-Agnostic Explanations) was implemented to identify potential biases and improve the model's fairness and transparency.
