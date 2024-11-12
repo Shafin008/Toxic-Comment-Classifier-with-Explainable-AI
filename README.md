@@ -45,6 +45,23 @@ The performances are shown in the table below.
 ![Confusion Matrices](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/cf.jpg) 
 
 
+## XAI Integration
 
 Finally, Explainable AI LIME (Local Interpretable Model-Agnostic Explanations) was implemented to identify potential biases and improve the model's fairness and transparency.
+Some samples are given below.
 
+### Toxic
+
+![XAI_sample_10](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/10.JPG) 
+![XAI_sample_13](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/13.JPG) 
+![XAI_sample_3](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/3.JPG) 
+![XAI_sample_5](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/5.JPG) 
+![XAI_sample_9](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/9.JPG)  
+
+### Non-Toxic
+![XAI_sample_11](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/11.JPG) 
+![XAI_sample_6](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/xai_figs/6.JPG)  
+
+### Note
+
+It's understandable why the toxic ones are labeled as toxic, due to having offensive words but for the non-toxic ones, some of the words are not toxic but neutral and those were learned from the dataset as such and hence, labeled as non-toxic.
