@@ -7,11 +7,11 @@ Played around with some classic ML algorithms like Logistic Regression, Support 
 
 The dataset from the ["Toxic Comment Classification Challenge"](https://www.kaggle.com/competitions/jigsaw-toxic-comment-classification-challenge/overview) was utilized to test those machine learning algorithms. The dataset contains a large number of Wikipedia comments that have been labeled by human raters for toxic behavior. The types of toxicity are, toxic, severe_toxic, obscene, threat, insult, and identity_hate```. 
 
-Finally, Implemented Explainable AI LIME (Local Interpretable Model-Agnostic Explanations) to identify potential biases and improve the model's fairness and transparency.
+Finally, Explainable AI LIME (Local Interpretable Model-Agnostic Explanations) was implemented to identify potential biases and improve the model's fairness and transparency.
 
 The dataset is stored in a CSV format and I only utilized 2 columns:
 
-- comment_text: The wikipedia comment text. (comment_text)
+- comment_text: The Wikipedia comment text. (comment_text)
 - toxic: If the comment is toxic or not.  (Target Column)
 - Other columns are ignored, and hence are dropped.
 
@@ -31,6 +31,8 @@ I also removed the stopwords since I am not using deep learning models or neural
 
 After splitting the dataset into 80:20 train-test splits, Utilized some classic ML algorithms like Logistic Regression, Support Vector Machines, and Naive Bayes algorithms to classify toxic comments. Trained those model on the data and then tested their performances.
 
+## Results
+
 The performances are shown in the table below.
 
 | Serial        | ML Algorithm            | Accuracy       | Precision         | Recall           | F-1 Score |
@@ -40,5 +42,9 @@ The performances are shown in the table below.
 | 3             |Bernoulli's Naive Bayes  |0.95            |0.94               |0.95              |0.94       |
 
     
+![Confusion Matrices](https://raw.githubusercontent.com/RezuwanHassan262/Toxic-Comment-Classifier-with-Explainable-AI/refs/heads/main/figures/cf.jpg) 
+
+
+
 Finally, Explainable AI LIME (Local Interpretable Model-Agnostic Explanations) was implemented to identify potential biases and improve the model's fairness and transparency.
 
